@@ -1,0 +1,56 @@
+.App {
+  padding: 8px;
+  grid-gap: 10px;
+  display: grid;
+  width: 4rem;
+  position: relative;
+
+  grid-template-areas:
+    'header header header header  '
+    'num1 num2 num3 num4 '
+    'num5 num6 num7 num8 '
+    'num9 num10 num11 num12 '
+    'num13 num14 num15 res '
+    'num16 num17 num18 res ';
+}
+
+.inputArea {
+  grid-area: header;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 2rem;
+  width: 24rem;
+  letter-spacing: 2.5px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+
+
+}
+
+/* From cssbuttons.io */
+button {
+  letter-spacing: 2.5px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+ }
+ 
+ button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+ }
+ 
+ button:active {
+  transform: translateY(-1px);
+ }

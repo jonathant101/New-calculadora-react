@@ -1,0 +1,25 @@
+.buttonGrid {
+  padding: 2rem;
+  width: 6rem;
+  border-radius: 10px;
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+}
+
+.numbers {
+  margin-left: 0.5rem;
+  position: absolute;
+}
+
+.buttonGrid-resut {
+  grid-area: res;
+  padding: 2rem;
+  width: 6rem;
+  height: 9rem;
+
+  border-radius: 10px;
+  font-size: 2rem;
+  align-items: center;
+  display: flex;
+}
